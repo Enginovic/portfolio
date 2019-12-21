@@ -2,7 +2,6 @@
   <v-parallax
     dark
     src="../assets/material2.jpg"
-    height="400"
   >
     <v-row align="center" justify="center">
       <v-col class="text-center hero" cols="12">
