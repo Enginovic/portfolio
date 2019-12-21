@@ -1,9 +1,10 @@
-@import './assets/scss/variables';
+@import '@/assets/scss/_variables.scss';
 
 .elementTitle {
   color: $primary;
-  font-size: 55px;
-  margin-bottom: 24px;
+  font-size: 36px;
+  margin: 24px 0;
+  font-weight: 400;
 
   &::after {
     content: '';
@@ -16,9 +17,9 @@
 }
 
 .elementSubTitle {
-  font-size: 28px;
+  font-size: 22px;
   margin-bottom: 18px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 p {

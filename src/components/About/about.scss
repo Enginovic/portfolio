@@ -1,0 +1,21 @@
+ul {
+  font-size: 18px;
+  margin: 0;
+  padding-left: 0 !important;
+  list-style-type: none;
+
+  li {
+    margin-bottom: 12px;
+  }
+}
+
+img {
+  width: 75%;
+}
+
+.listLabel {
+  color: $gray-medium;
+  font-weight: 500;
+  width: fit-content;
+  margin-right: 6px;
+}

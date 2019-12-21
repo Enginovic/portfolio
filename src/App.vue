@@ -9,9 +9,9 @@
 </template>
 
 <script>
-import Hero from './components/Hero.vue';
-import About from './components/About.vue';
-import Experience from './components/Experience.vue';
+import Hero from '@/components/Hero/Hero.vue';
+import About from '@/components/About/About.vue';
+import Experience from '@/components/Experience/Experience.vue';
 
 export default {
   name: 'App',
@@ -24,4 +24,4 @@ export default {
 };
 </script>
 
-<style lang="scss" src="./app.scss"></style>
+<style lang="scss" src="@/app.scss"></style>
