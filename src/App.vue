@@ -17,10 +17,8 @@ export default {
   components: {
     'hero': Hero,
     'about': About
-  },
-
-  data: () => ({
-    //
-  }),
+  }
 };
 </script>
+
+<style lang="scss" src="./app.scss"></style>
