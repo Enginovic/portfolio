@@ -1,11 +1,4 @@
-$primary: #282f37;
-$secondary: #f4531d;
-$gray: #5e6267;
-$gray-light: #b2b2b2;
-
-.elementPanel {
-  padding: 24px 0 48px;
-}
+@import './assets/scss/variables';
 
 .elementTitle {
   color: $primary;
@@ -28,12 +21,26 @@ $gray-light: #b2b2b2;
   font-weight: 500;
 }
 
-img {
-  width: 100%;
-}
-
 p {
   font-size: 18px;
-  line-height: 1.3;
+  line-height: 1.8;
   color: $gray;
+}
+
+.button {
+  color: #fff !important;
+}
+
+.button--primary {
+  background-color: $primary !important;
+}
+
+.button--secondary {
+  background-color: $secondary !important;
+}
+
+@media screen and (max-width: 960px) {
+  .hide-on-mobile {
+    display: none;
+  }
 }
