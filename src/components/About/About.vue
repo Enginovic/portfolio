@@ -34,4 +34,4 @@
   </div>
 </template>
 
-<style scoped lang="scss" src="@/components/About/About.vue"></style>
+<style scoped lang="scss" src="@/components/About/about.scss"></style>
