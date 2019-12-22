@@ -1,0 +1,21 @@
+.experience {
+  &:last-child {
+    .v-divider {
+      display: none;
+    }
+  }
+}
+
+.companyName {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.period {
+  color: $gray-medium;
+  font-weight: 600;
+}
+
+.v-divider {
+  border-width: 1px;
+}
