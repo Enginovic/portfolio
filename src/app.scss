@@ -1,44 +1,5 @@
 @import '@/assets/scss/_variables.scss';
-
-.elementTitle {
-  color: $primary;
-  font-size: 36px;
-  margin: 24px 0;
-  font-weight: 400;
-
-  &::after {
-    content: '';
-    display: block;
-    margin: 0 auto;
-    height: 4px;
-    width: 50px;
-    background-color: $secondary;
-  }
-}
-
-.elementSubTitle {
-  font-size: 22px;
-  margin-bottom: 18px;
-  font-weight: 400;
-}
-
-p {
-  font-size: 18px;
-  line-height: 1.8;
-  color: $gray;
-}
-
-.button {
-  color: #fff !important;
-}
-
-.button--primary {
-  background-color: $primary !important;
-}
-
-.button--secondary {
-  background-color: $secondary !important;
-}
+@import '@/assets/scss/_base.scss';
 
 @media screen and (max-width: 960px) {
   .hide-on-mobile {
