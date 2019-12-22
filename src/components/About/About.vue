@@ -8,7 +8,7 @@
       </v-row>
       <v-row>
         <v-col sm="12" md="2" lg="3" class="hide-on-mobile">
-          <img src="@/assets/engin.jpg" />
+          <img src="@/assets/images/engin.jpg" />
         </v-col>
         <v-col sm="12" md="4" lg="3">
           <h2 class="elementSubTitle">Info</h2>
