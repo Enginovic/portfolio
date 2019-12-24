@@ -1,0 +1,23 @@
+.elementTitle--background {
+  color: #fff;
+
+  &::after {
+    background-color: #fff;
+  }
+}
+
+.elementSubTitle--background {
+  color: #fff;
+}
+
+.contact {
+  background-image: url("../../assets/images/hero.jpg");
+}
+
+.label {
+  color: $gray-medium;
+}
+
+p {
+  color: #fff;
+}

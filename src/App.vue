@@ -7,6 +7,7 @@
       <education></education>
       <skills></skills>
       <references></references>
+      <contact></contact>
     </v-content>
   </v-app>
 </template>
@@ -18,6 +19,7 @@ import Experience from '@/components/Experience/Experience.vue';
 import Education from '@/components/Education/Education.vue';
 import Skills from '@/components/Skills/Skills.vue';
 import References from '@/components/References/References.vue';
+import Contact from '@/components/Contact/Contact.vue';
 
 export default {
   name: 'App',
@@ -28,7 +30,8 @@ export default {
     'experience': Experience,
     'education': Education,
     'skills': Skills,
-    'references': References
+    'references': References,
+    'contact': Contact
   }
 };
 </script>
