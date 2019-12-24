@@ -1,0 +1,39 @@
+.personalSkills {
+  list-style-type: none;
+  padding: 0;
+}
+
+.personalSkill {
+  &::before {
+    content: '✓';
+    display: inline;
+  }
+}
+
+.softwareSkill__name {
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 4px;
+}
+
+.softwareSkill__bar {
+  position: relative;
+  background-color: $gray-medium;
+  height: 24px;
+  border-radius: 3px;
+}
+
+.softwareSkill__percentage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  height: 100%;
+  border-radius: 3px;
+  background-color: $primary;
+  color: #fff;
+  font-size: 12px;
+  padding: 3px 10px;
+  font-weight: bold;
+}

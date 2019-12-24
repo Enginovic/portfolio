@@ -5,6 +5,7 @@
       <about></about>
       <experience></experience>
       <education></education>
+      <skills></skills>
     </v-content>
   </v-app>
 </template>
@@ -14,6 +15,7 @@ import Hero from '@/components/Hero/Hero.vue';
 import About from '@/components/About/About.vue';
 import Experience from '@/components/Experience/Experience.vue';
 import Education from '@/components/Education/Education.vue';
+import Skills from '@/components/Skills/Skills.vue';
 
 export default {
   name: 'App',
@@ -22,7 +24,8 @@ export default {
     'hero': Hero,
     'about': About,
     'experience': Experience,
-    'education': Education
+    'education': Education,
+    'skills': Skills
   }
 };
 </script>
