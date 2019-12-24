@@ -13,7 +13,7 @@
           md="4"
           v-for="(education, index) in educations" 
           :key="`education-${index}`"
-          class="education text-center"
+          class="education"
         >
           <h3 class="schoolName">{{ education.schoolName }}</h3>
           <div class="study">{{ education.study }}</div>

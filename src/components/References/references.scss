@@ -1,0 +1,23 @@
+.vueperslide {
+  .vueperslide__content {
+    background-color: $gray-light;
+    margin: 0 20px;
+    padding: 24px;
+  }
+}
+
+.vueperslide__name {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.vueperslide__title {
+  color: $gray-medium;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.vueperslide__text {
+  font-style: italic;
+}
