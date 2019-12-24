@@ -27,6 +27,6 @@ export default {
           activity: 'Bij Snapmedia heb ik mijn 3e jaars stage mogen afronden. Hier mocht ik websites textueel onderhouden, het maken van templates in Wordpress en Joomlas en nieuwe ontwerpen maken van websites in Photoshop of Illustrator.'
         }
       ]
-    }
+    };
   }
 };

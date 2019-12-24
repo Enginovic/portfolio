@@ -1,21 +1,9 @@
-ul {
-  font-size: 18px;
-  margin: 0;
-  padding-left: 0 !important;
-  list-style-type: none;
-
-  li {
-    margin-bottom: 12px;
-  }
+.schoolName {
+  font-size: 28px;
+  font-weight: 400;
 }
 
-img {
-  width: 75%;
-}
-
-.listLabel {
+.period {
   color: $gray-medium;
-  font-weight: 500;
-  width: fit-content;
-  margin-right: 6px;
+  font-weight: 600;
 }
