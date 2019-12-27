@@ -27,10 +27,9 @@
               <h3 class="label">Social media</h3>
               <p>
                 <ul>
-                  <li>Facebook</li>
-                  <li>Instagram</li>
-                  <li>LinkedIn</li>
-                  <li>Github</li>
+                  <li><a href="https://www.facebook.com/engin.sasmaz93?ref=bookmarks" target="_blank">Facebook</a></li>
+                  <li><a href="https://www.linkedin.com/in/engin-sasmaz-17874177/" target="_blank">LinkedIn</a></li>
+                  <li><a href="https://github.com/Enginovic" target="_blank">Github</a></li>
                 </ul>
               </p>
             </v-col>
@@ -38,7 +37,7 @@
               <h3 class="label">Mobiel</h3>
               <p>06 14 52 52 00</p>
               <h3 class="label">E-mail</h3>
-              <p>info@enginsasmaz.nl</p>
+              <p><a target="_blank" href="mailto:info@enginsasmaz.nl">info@enginsasmaz.nl</a></p>
             </v-col>
           </v-row>
         </v-col>
