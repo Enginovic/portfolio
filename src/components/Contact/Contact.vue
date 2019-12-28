@@ -1,5 +1,5 @@
 <template>
-  <div class="contact">
+  <div class="contact" id="contact">
     <v-container>
       <v-row justify="center">
         <v-col cols="12">

@@ -26,8 +26,8 @@
           <p>Leergierig, simpliciteit, perfectionist, zelfstandig/teamspeler, op tijd en doorzetter.</p>
           <p>In een paar woorden wie ik ben. Ik lever aan al mijn werk en projecten waar ik aan heb mogen werken kwaliteit. Door het nakomen van mijn afspraken houd ik me altijd aan gestelde budgetten. Wanneer ik niet de enige developer in de kamer ben stel ik mijzelf coachbaar op, maar lever ik ook nodige inhoudelijke kennis en ervaring op.</p>
           <p>Tot slot stimuleer ik een positieve houding onder collega's.</p>
-          <v-btn large class="mr-4 button button--primary">Contact</v-btn>
-          <v-btn large class="button button--secondary">Download CV</v-btn>
+          <v-btn large class="mr-4 button button--primary"><a href="#contact">Contact</a></v-btn>
+          <v-btn large class="button button--secondary"><a href="../../assets/files/CV_Engin_Sasmaz.pdf" target="_blank">Download CV</a></v-btn>
         </v-col>
       </v-row>
     </v-container>  

@@ -19,3 +19,12 @@ img {
   width: fit-content;
   margin-right: 6px;
 }
+
+a {
+  color: #fff !important;
+  text-decoration: none;
+
+  &:hover {
+    color: #fff !important;
+  }
+}
