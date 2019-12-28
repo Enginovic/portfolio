@@ -1,22 +1,21 @@
-.vueperslide {
-  .vueperslide__content {
-    background-color: $gray-light;
-    padding: 24px;
-  }
+.slide {
+  background-color: $gray-light;
+  padding: 24px;
+  margin: 0 6px;
 }
 
-.vueperslide__name {
+.slide__name {
   font-weight: bold;
   font-size: 18px;
   margin-bottom: 4px;
 }
 
-.vueperslide__title {
+.slide__title {
   color: $gray-medium;
   font-size: 14px;
   margin-bottom: 10px;
 }
 
-.vueperslide__text {
+.slide__text {
   font-style: italic;
 }

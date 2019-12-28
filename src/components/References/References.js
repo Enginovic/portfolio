@@ -1,8 +1,10 @@
-import { VueperSlides, VueperSlide } from 'vueperslides';
-import 'vueperslides/dist/vueperslides.css';
+import { Carousel, Slide } from 'vue-carousel';
 
 export default {
-  components: { VueperSlides, VueperSlide },
+  components: {
+    Carousel,
+    Slide
+  },
   data: () => {
     return {
       references: [
@@ -23,14 +25,5 @@ export default {
         }
       ]
     };
-  },
-  methods: {   
-    isMobile() {
-      if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-        return true;
-      } else {
-        return false;
-      }
-    }
   },
 };
