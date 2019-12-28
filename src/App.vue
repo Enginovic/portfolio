@@ -8,6 +8,13 @@
       <skills></skills>
       <references></references>
       <contact></contact>
+
+      <div
+        v-scroll="onScroll"
+        v-show="isShowingBackToTopButton"
+        class="scroll-to-top"
+        @click="toTop"
+      />
     </v-content>
   </v-app>
 </template>
@@ -24,6 +31,10 @@ import Contact from '@/components/Contact/Contact.vue';
 export default {
   name: 'App',
 
+  data: () => ({
+    isShowingBackToTopButton: false
+  }),
+
   components: {
     'hero': Hero,
     'about': About,
@@ -32,6 +43,17 @@ export default {
     'skills': Skills,
     'references': References,
     'contact': Contact
+  },
+
+  methods: {
+    onScroll (e) {
+      if (typeof window === 'undefined') return
+      const top = window.pageYOffset || e.target.scrollTop || 0;
+      this.isShowingBackToTopButton = top > 20;
+    },
+    toTop () {
+      this.$vuetify.goTo(0)
+    }
   }
 };
 </script>
