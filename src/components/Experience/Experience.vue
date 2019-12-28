@@ -1,6 +1,6 @@
 <template>
   <div class="gray-background">
-    <v-container pt-8 pb-8>
+    <v-container>
       <v-row justify="center">
         <v-col cols="auto">
           <h1 class="elementTitle">Ervaring</h1>

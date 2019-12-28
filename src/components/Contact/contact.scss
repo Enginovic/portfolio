@@ -1,3 +1,9 @@
+.contact {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../assets/images/contact.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 .elementTitle--background {
   color: #fff;
 
@@ -8,16 +14,11 @@
 
 .elementSubTitle--background {
   color: #fff;
-}
-
-.contact {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../assets/images/contact.jpg");
-  background-size: cover;
-  background-position: center;
+  font-weight: bold;
 }
 
 .label {
-  color: $gray-medium;
+  color: #fff;
 }
 
 p {

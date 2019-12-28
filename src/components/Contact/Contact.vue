@@ -1,6 +1,6 @@
 <template>
   <div class="contact">
-    <v-container pt-8 pb-8>
+    <v-container>
       <v-row justify="center">
         <v-col cols="12">
           <h1 class="text-center elementTitle elementTitle--background">Contact</h1>
