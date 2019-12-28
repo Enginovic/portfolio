@@ -18,7 +18,7 @@
             <li><span class="listLabel">Nationaliteit:</span>Nederlands</li>
             <li><span class="listLabel">Stad:</span>Leidschendam</li>
             <li><span class="listLabel">Nummer:</span>06 14 52 52 00</li>
-            <li><span class="listLabel">E-mail:</span>info@enginsasmaz.nl</li>
+            <li><span class="listLabel">E-mail:</span><a href="mailto:info@enginsasmaz.nl" target="_blank">info@enginsasmaz.nl</a></li>
           </ul>
         </v-col>
         <v-col sm="12" md="5" lg="6">

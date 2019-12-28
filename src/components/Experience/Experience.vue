@@ -16,7 +16,11 @@
         >
           <v-row>
             <v-col cols="12" sm="12" md="2">
-              <h3 class="companyName">{{ experience.companyName }}</h3>
+              <h3 class="companyName">
+                <a :href="experience.link" target="_blank">
+                  {{ experience.companyName }}
+                </a>
+              </h3>
             </v-col>
             <v-col cols="12" sm="12" md="2">
               <div class="function">{{ experience.function }}</div>

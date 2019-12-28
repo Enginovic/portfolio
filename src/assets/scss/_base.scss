@@ -25,6 +25,14 @@
   font-weight: 400;
 }
 
+a {
+  color: black !important;
+
+  &:hover {
+    color: $secondary !important;
+  }
+}
+
 p {
   font-size: 18px;
   line-height: 1.8;
