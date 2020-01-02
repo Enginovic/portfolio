@@ -22,6 +22,11 @@ export default {
           name: 'Helin Hassan',
           title: 'Eigenaar, Advocaat bij Dem Advocatuur',
           text: 'Engin heeft voor mij mijn website gemaakt. Het eindresultaat is super. Engin gaat net zolang door totdat de klant tevreden is. Ik zou hem zeker aanraden!'
+        },
+        {
+          name: 'Eric Ariens',
+          title: 'Founder and Country Manager Strossle Benelux',
+          text: 'Engin is one of the best front-end developers, with a thorough knowledge of backend as well, I have worked with. He is among the few co workers who really solves a problem. In doing so making customers happy.'
         }
       ]
     };
