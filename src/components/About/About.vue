@@ -23,8 +23,8 @@
         </v-col>
         <v-col sm="12" md="5" lg="6">
           <h2 class="elementSubTitle">Profiel</h2>
-          <p>Leergierig, simplist, perfectionist, zelfstandig/teamspeler, op tijd en doorzetter.</p>
-          <p>Ik maak mijn projecten met de nodige zorg van optimale kwaliteit. Door het nakomen van afspraken houd ik me altijd aan gestelde budgetten. Wanneer ik niet de enige developer in de kamer ben stel ik mijzelf coachbaar op, maar lever ik ook nodige inhoudelijke kennis en ervaring op.</p>
+          <p>Leergierig, simplistisch en een doorzetter zijn de eigenschappen die mij een prettige collega maken.</p>
+          <p>Ik maak mijn projecten met de nodige zorg en van optimale kwaliteit. Door het nakomen van afspraken houd ik mij altijd aan de gestelde budgetten. Wanneer ik niet de enige developer in de kamer ben stel ik mijzelf coachbaar op, maar deel ik ook nodige inhoudelijke kennis en ervaring.</p>
           <p>Tot slot stimuleer ik een positieve houding onder collega's.</p>
           <v-btn large class="mr-4 button button--primary"><a class="white--text" @click="$vuetify.goTo('#contact')">Contact</a></v-btn>
           <v-btn large class="button button--secondary"><a class="white--text" href="/CV_Engin_Sasmaz.jpg" target="_blank">Download CV</a></v-btn>
