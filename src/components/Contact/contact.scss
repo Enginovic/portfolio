@@ -1,36 +1,29 @@
 .contact {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../assets/images/contact.jpg");
-  background-size: cover;
-  background-position: center;
+  background-color: black;
 }
 
-.elementTitle--background {
-  color: #fff;
-
-  &::after {
-    background-color: #fff;
-  }
-}
-
-.elementSubTitle--background {
-  color: #fff;
-  font-weight: bold;
-}
-
-.label {
-  color: #fff;
+.container {
+  padding: 12px 32px;
+  text-align: center;
 }
 
 p {
   color: #fff;
-}
-
-.col-12 {
-  p:last-child {
-    margin-bottom: 0;
-  }
+  margin-bottom: 0 !important;
 }
 
 a {
   color: #fff !important;
+}
+
+svg {
+  margin: 0 5px;
+
+  &:hover path {
+    fill: #fff;
+  }
+  
+  path {
+    fill: rgba(255, 255, 255, .7);
+  }
 }
