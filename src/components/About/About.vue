@@ -17,7 +17,6 @@
             <li><span class="listLabel">Geboortedatum:</span>06 juli 1993</li>
             <li><span class="listLabel">Nationaliteit:</span>Nederlands</li>
             <li><span class="listLabel">Woonplaatst:</span>Leidschendam</li>
-            <li><span class="listLabel">Nummer:</span>06 14 52 52 00</li>
             <li><span class="listLabel">E-mail:</span><a href="mailto:info@enginsasmaz.nl" target="_blank">info@enginsasmaz.nl</a></li>
           </ul>
         </v-col>
