@@ -27,7 +27,18 @@
     "sass-loader": "^8.0.0",
     "vue-cli-plugin-vuetify": "^2.0.3",
     "vue-template-compiler": "^2.6.11",
-    "vuetify-loader": "^1.4.3"
+    "vuetify-loader": "^1.4.3",
+    "http-proxy": ">=1.18.1",
+    "@hapi/hoek": ">=8.5.1",
+    "yargs-parser": ">=18.1.2",
+    "dot-prop": ">=4.2.1",
+    "serialize-javascript": ">=3.1.0",
+    "elliptic": ">=6.5.3",
+    "lodash": ">=4.17.19",
+    "npm-registry-fetch": ">=8.1.1",
+    "websocket-extensions": ">=0.1.4",
+    "minimist": ">=1.2.3",
+    "kind-of": ">=6.0.3"
   },
   "eslintConfig": {
     "root": true,
