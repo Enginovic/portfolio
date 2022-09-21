@@ -12,7 +12,7 @@
     "npm-check-updates": "^4.0.1",
     "vue": "^2.6.11",
     "vue-carousel": "^0.18.0",
-    "vuetify": "^2.2.1"
+    "vuetify": "^2.6.10"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.1.2",
